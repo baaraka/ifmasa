@@ -1,9 +1,26 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./NavBar.scss";
+import { useEffect, useState } from "react";
 
 function NavBar() {
+  const [active, setActive] = useState(false);
+
+  const { pathname } = useLocation();
+
+  const isActive = () => {
+    window.scrollY > 0 ? setActive(true) : setActive(false);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", isActive);
+
+    return () => {
+      window.removeEventListener("scroll", isActive);
+    };
+  }, []);
+
   return (
-    <div className="navBar">
+    <div className={active || pathname !== "/" ? "navBar active" : "navBar"}>
       <div className="navContainer">
         <div className="left">
           <h1>IFMASA</h1>
@@ -18,13 +35,26 @@ function NavBar() {
           <button className="bIn">sign in</button>
         </div>
       </div>
-      <hr />
-      <div className="menu">
-        <Link className="link">IFMASA LEADERSHIP</Link>
-        <Link className="link">IFMASA MEMBER'S PROFILE</Link>
-        <Link className="link">IFMASA NEW LETTERS</Link>
-        <Link className="link">IFMASA PRODUCTS</Link>
-      </div>
+      {(active || pathname !== "/") && (
+        <>
+          <hr />
+          <div className="menu">
+            <Link className="link">
+              <span className="menuSpan">IFMASA LEADERSHIP</span>
+            </Link>
+            <Link className="link">
+              <span className="menuSpan">IFMASA MEMBER'S PROFILE</span>
+            </Link>
+            <Link className="link">
+              <span className="menuSpan">IFMASA NEW LETTERS</span>
+            </Link>
+            <Link className="link">
+              <span className="menuSpan">IFMASA PRODUCTS</span>
+            </Link>
+          </div>
+          <hr />
+        </>
+      )}
     </div>
   );
 }
