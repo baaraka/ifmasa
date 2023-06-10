@@ -1,0 +1,50 @@
+.navBar {
+  height: 100%;
+  background-color: rgb(122, 211, 240);
+
+  .navContainer {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+
+    .left {
+      h1 {
+        font-size: 30px;
+        cursor: pointer;
+      }
+    }
+    .middle {
+      display: flex;
+      gap: 50px;
+
+      span {
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+    .right {
+      display: flex;
+      gap: 30px;
+
+      .bUp {
+        padding: 10px 20px;
+        border: none;
+        font-size: 20px;
+        color: rgb(31, 158, 200);
+        cursor: pointer;
+      }
+      .bIn {
+        padding: 10px 20px;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+        background-color: rgb(45, 183, 228);
+      }
+    }
+  }
+}
