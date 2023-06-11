@@ -33,6 +33,33 @@ function Leader() {
               organization is headed and the leadership team's aspirations.s
             </p>
           </div>
+          <div className="lContainerList">
+            <h2>Future Vision</h2>
+            <p>
+              The future vision section outlines the long-term goals, strategic
+              direction, and growth plans of your organization as envisioned by
+              the leadership team. It provides insight into where the
+              organization is headed and the leadership team's aspirations.s
+            </p>
+          </div>
+          <div className="lContainerList">
+            <h2>Future Vision</h2>
+            <p>
+              The future vision section outlines the long-term goals, strategic
+              direction, and growth plans of your organization as envisioned by
+              the leadership team. It provides insight into where the
+              organization is headed and the leadership team's aspirations.s
+            </p>
+          </div>
+          <div className="lContainerList">
+            <h2>Future Vision</h2>
+            <p>
+              The future vision section outlines the long-term goals, strategic
+              direction, and growth plans of your organization as envisioned by
+              the leadership team. It provides insight into where the
+              organization is headed and the leadership team's aspirations.s
+            </p>
+          </div>
         </div>
         <button>VIEW MORE</button>
       </div>
