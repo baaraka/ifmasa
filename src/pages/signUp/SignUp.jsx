@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./SignUp.scss";
 
 function SignUp() {
@@ -28,7 +29,13 @@ function SignUp() {
               <label>Phone Number</label>
               <input type="number" />
             </div>
-            <button>SUBMIT</button>
+            <button>Sign Up</button>
+            <p>
+              You have account?{" "}
+              <Link to="/signIn">
+                <button>Sign In</button>
+              </Link>
+            </p>
           </form>
         </div>
       </div>
