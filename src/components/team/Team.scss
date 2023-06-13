@@ -1,0 +1,38 @@
+.team {
+  height: 100%;
+
+  .teamContainer {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    margin: auto;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      h1 {
+        font-size: 30px;
+        font-weight: 500;
+      }
+      p {
+        line-height: 1.5;
+      }
+    }
+    .right {
+      width: 500px;
+      height: 400px;
+
+      img {
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+  }
+}
