@@ -30,11 +30,17 @@
         height: 300px;
         display: flex;
         flex-direction: column;
+        transition: 0.4s ease;
         gap: 10px;
         padding: 20px;
         border-radius: 10px;
         border: 1px solid hsla(0, 1%, 50%, 0.2);
         box-shadow: 0 0 20px 0 hsla(0, 1%, 50%, 0.2);
+
+        &:hover {
+          transform: translateY(5px);
+          background-color: rgb(247, 240, 240);
+        }
 
         h2 {
           font-size: 20px;

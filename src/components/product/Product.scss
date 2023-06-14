@@ -26,6 +26,12 @@
         width: 350px;
         height: 400px;
         position: relative;
+        transition: 0.4s ease;
+
+        &:hover {
+          transform: translateY(5px);
+          background-color: rgb(247, 240, 240);
+        }
 
         .containerImage {
           width: 350px;

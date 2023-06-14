@@ -26,12 +26,18 @@
         width: 350px;
         height: auto;
         display: flex;
+        transition: 0.4s ease;
         gap: 10px;
         flex-direction: column;
         padding: 20px;
         border-radius: 10px;
         border: 1px solid hsla(0, 1%, 50%, 0.2);
         box-shadow: 0 0 20px 0 hsla(0, 1%, 50%, 0.2);
+
+        &:hover {
+          transform: translateY(5px);
+          background-color: rgb(247, 240, 240);
+        }
 
         img {
           width: 100%;
