@@ -49,3 +49,19 @@
     }
   }
 }
+
+//media queries
+@media (max-width: 768px) {
+  .profile {
+    .profileContainer {
+      h1 {
+        font-size: 20px;
+      }
+      .pContainer {
+        .pContainerList {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -50,3 +50,44 @@
     }
   }
 }
+
+//media queries
+@media (max-width: 768px) {
+  .footer {
+    .footerContainer {
+      .footerContainerListItem {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+
+        .fContainerList {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          h2 {
+            font-size: 20px;
+          }
+        }
+      }
+      .footerListItem {
+        flex-direction: column;
+        gap: 30px;
+
+        .footerItemList {
+          flex-direction: column;
+
+          h1 {
+            cursor: pointer;
+          }
+
+          .iconFooter {
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

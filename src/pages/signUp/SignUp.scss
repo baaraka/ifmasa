@@ -77,3 +77,25 @@
     }
   }
 }
+
+//media queries
+
+@media (max-width: 768px) {
+  .signUp {
+    .signUpContainer {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+
+      .left {
+        width: 100%;
+        height: 400px;
+
+        img {
+          width: 100%;
+          height: 400px;
+        }
+      }
+    }
+  }
+}

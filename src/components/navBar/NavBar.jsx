@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 function NavBar() {
   const [active, setActive] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const { pathname } = useLocation();
 
@@ -38,37 +39,42 @@ function NavBar() {
             <span>Contact Us</span>
           </Link>
         </div>
-        <div className="right">
-          <Link to="/signUp">
-            <button className="bUp">sign up</button>
-          </Link>
-          <Link to="/signIn">
-            <button className="bIn">sign in</button>
-          </Link>
-        </div>
         <div className="toggleMenu">
-          <i class="iconBars fa-solid fa-bars"></i>
+          <i
+            onClick={() => setOpen(!open)}
+            className={`iconBars fa-solid ${open ? "fa-xmark" : "fa-bars"}`}
+          ></i>
         </div>
-        <div className="sideBar">
-          <Link to="/" className="link">
-            <span>Home</span>
-          </Link>
-          <Link to="/aboutUs" className="link">
-            <span>About Us</span>
-          </Link>
-          <Link to="/contactUs" className="link">
-            <span>Contact Us</span>
-          </Link>
-          <Link to="/leaders" className="link">
-            <span className="menuSpan">IFMASA LEADERSHIP</span>
-          </Link>
-          <Link to="/members" className="link">
-            <span className="menuSpan">IFMASA MEMBER'S PROFILE</span>
-          </Link>
-          <span className="menuSpan">IFMASA NEWSLETTERS</span>
-          <Link to="/products" className="link">
-            <span className="menuSpan">IFMASA PRODUCTS</span>
-          </Link>
+        {open && (
+          <div className="sideBar">
+            <Link to="/" className="link">
+              <span>Home</span>
+            </Link>
+            <Link to="/aboutUs" className="link">
+              <span>About Us</span>
+            </Link>
+            <Link to="/contactUs" className="link">
+              <span>Contact Us</span>
+            </Link>
+            <Link to="/leaders" className="link">
+              <span className="menuSpan">IFMASA LEADERSHIP</span>
+            </Link>
+            <Link to="/members" className="link">
+              <span className="menuSpan">IFMASA MEMBER'S PROFILE</span>
+            </Link>
+            <span className="menuSpan">IFMASA NEWSLETTERS</span>
+            <Link to="/products" className="link">
+              <span className="menuSpan">IFMASA PRODUCTS</span>
+            </Link>
+            <Link to="/signUp">
+              <button className="bUp">sign up</button>
+            </Link>
+            <Link to="/signIn">
+              <button className="bIn">sign in</button>
+            </Link>
+          </div>
+        )}
+        <div className="right">
           <Link to="/signUp">
             <button className="bUp">sign up</button>
           </Link>

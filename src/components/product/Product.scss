@@ -85,3 +85,31 @@
     }
   }
 }
+
+//media queries
+@media (max-width: 768px) {
+  .product {
+    .productContainer {
+      h1 {
+        font-size: 20px;
+      }
+      .productContainerList {
+        .productContainerListItem {
+          width: 100%;
+          height: 300px;
+
+          .containerImage {
+            width: 100%;
+            height: 300px;
+
+            .containerOverlay {
+              h2 {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
