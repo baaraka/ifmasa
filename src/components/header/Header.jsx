@@ -40,14 +40,15 @@ function Header() {
       <div className="headerContainer">
         <div className="left">
           <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            possimus, sapiente reprehenderit animi suscipit voluptatum dolore,
+            Welcome to our IFMASA - The Academic State Assembly: Uniting
+            Scholars, Nurturing Excellence, and Empowering Minds to Shape the
+            Future
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            voluptas perferendis aliquid autem ipsum reiciendis amet pariatur
-            vero, dolor laboriosam, quia deleniti, qui sint? Odit blanditiis
-            esse soluta consectetur similique?
+            Through collaboration, innovation, and a shared vision, we strive to
+            create an empowering environment that nurtures the minds of future
+            leaders. Join us as we build bridges between disciplines, inspire
+            intellectual growth, and shape a brighter future together
           </p>
         </div>
         <div className="right">

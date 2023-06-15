@@ -7,10 +7,9 @@ function Team() {
         <div className="left">
           <h1>Our Team</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            ratione numquam optio aperiam facere. Placeat facere architecto
-            saepe inventore. Placeat dolorum non vero alias adipisci, accusamus
-            dolores? Dolore, hic consectetur!
+            Join us on this journey of intellectual exploration, collaboration,
+            and personal growth. Together, we can make a lasting impact within
+            our university and beyond."
           </p>
         </div>
         <div className="right">

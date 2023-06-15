@@ -1,27 +1,17 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./NavBar.scss";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function NavBar() {
-  const [active, setActive] = useState(false);
   const [open, setOpen] = useState(false);
+  const [show, setShow] = useState(false);
 
-  const { pathname } = useLocation();
-
-  const isActive = () => {
-    window.scrollY > 0 ? setActive(true) : setActive(false);
+  const handleSideBarClose = () => {
+    setOpen(false);
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", isActive);
-
-    return () => {
-      window.removeEventListener("scroll", isActive);
-    };
-  }, []);
-
   return (
-    <div className={active || pathname !== "/" ? "navBar active" : "navBar"}>
+    <div className="navBar">
       <div className="navContainer">
         <div className="left">
           <Link to="/" className="link">
@@ -38,24 +28,19 @@ function NavBar() {
           <Link to="/contactUs" className="link">
             <span>Contact Us</span>
           </Link>
-        </div>
-        <div className="toggleMenu">
-          <i
-            onClick={() => setOpen(!open)}
-            className={`iconBars fa-solid ${open ? "fa-xmark" : "fa-bars"}`}
-          ></i>
-        </div>
-        {open && (
-          <div className="sideBar">
-            <Link to="/" className="link">
-              <span>Home</span>
-            </Link>
-            <Link to="/aboutUs" className="link">
-              <span>About Us</span>
-            </Link>
+          <div className="other" onClick={() => setShow(!show)}>
             <Link to="/contactUs" className="link">
-              <span>Contact Us</span>
+              <span>Others</span>
             </Link>
+            <i
+              className={`iconDropMenu fa-solid  ${
+                show ? "fa-chevron-up" : "fa-chevron-down"
+              }`}
+            ></i>
+          </div>
+        </div>
+        {show && (
+          <div className="dropDownMenu">
             <Link to="/leaders" className="link">
               <span className="menuSpan">IFMASA LEADERSHIP</span>
             </Link>
@@ -66,11 +51,52 @@ function NavBar() {
             <Link to="/products" className="link">
               <span className="menuSpan">IFMASA PRODUCTS</span>
             </Link>
+          </div>
+        )}
+        <div className="toggleMenu">
+          <i
+            onClick={() => setOpen(!open)}
+            className={`iconBars fa-solid ${open ? "fa-xmark" : "fa-bars"}`}
+          ></i>
+        </div>
+        {open && (
+          <div className="sideBar">
+            <Link to="/" className="link">
+              <span onClick={handleSideBarClose}>Home</span>
+            </Link>
+            <Link to="/aboutUs" className="link">
+              <span onClick={handleSideBarClose}>About Us</span>
+            </Link>
+            <Link to="/contactUs" className="link">
+              <span onClick={handleSideBarClose}>Contact Us</span>
+            </Link>
+            <Link to="/leaders" className="link">
+              <span onClick={handleSideBarClose} className="menuSpan">
+                IFMASA LEADERSHIP
+              </span>
+            </Link>
+            <Link to="/members" className="link">
+              <span onClick={handleSideBarClose} className="menuSpan">
+                IFMASA MEMBER'S PROFILE
+              </span>
+            </Link>
+            <span onClick={handleSideBarClose} className="menuSpan">
+              IFMASA NEWSLETTERS
+            </span>
+            <Link to="/products" className="link">
+              <span onClick={handleSideBarClose} className="menuSpan">
+                IFMASA PRODUCTS
+              </span>
+            </Link>
             <Link to="/signUp">
-              <button className="bUp">sign up</button>
+              <button onClick={handleSideBarClose} className="bUp">
+                sign up
+              </button>
             </Link>
             <Link to="/signIn">
-              <button className="bIn">sign in</button>
+              <button onClick={handleSideBarClose} className="bIn">
+                sign in
+              </button>
             </Link>
           </div>
         )}
@@ -83,25 +109,6 @@ function NavBar() {
           </Link>
         </div>
       </div>
-
-      {(active || pathname !== "/") && (
-        <>
-          <hr />
-          <div className="menu">
-            <Link to="/leaders" className="link">
-              <span className="menuSpan">IFMASA LEADERSHIP</span>
-            </Link>
-            <Link to="/members" className="link">
-              <span className="menuSpan">IFMASA MEMBER'S PROFILE</span>
-            </Link>
-            <span className="menuSpan">IFMASA NEWSLETTERS</span>
-            <Link to="/products" className="link">
-              <span className="menuSpan">IFMASA PRODUCTS</span>
-            </Link>
-          </div>
-          <hr />
-        </>
-      )}
     </div>
   );
 }

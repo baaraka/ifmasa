@@ -13,22 +13,28 @@ function AboutDiv() {
         <div className="right">
           <h1>About Us</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Recusandae, incidunt aliquid? Atque totam at doloremque non eos
-            nobis iure minima, placeat excepturi reiciendis exercitationem animi
-            nostrum officiis consectetur sit iusto. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Eum tempore hic deleniti atque saepe
-            eligendi, aut provident. Similique officia quia possimus. Illum
-            magni dolorem impedit id nesciunt quidem unde quas. <br /> <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis
-            ad amet debitis rerum repudiandae nihil nemo non dolorum eaque
-            officia accusamus quam a, ratione est corrupti sint saepe similique!{" "}
+            IFMASA (Academic State Assembly) is an esteemed organization
+            comprising dedicated scholars from diverse disciplines within our
+            university. Our mission is to unite students and faculty, fostering
+            a collaborative and inclusive academic community. Through a range of
+            initiatives, we aim to empower minds, inspire intellectual growth,
+            and promote interdisciplinary exchange.
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            explicabo aliquid autem illum. Totam ratione dolorem, tenetur quis
-            accusantium ea, sunt vero ad blanditiis et modi molestiae at porro.
-            Quos.
+            Driven by the belief that knowledge knows no boundaries, IFMASA
+            serves as a platform for sharing ideas, conducting research, and
+            organizing events that enhance the academic experience. We strive to
+            create an environment where individuals can develop critical
+            thinking, leadership skills, and a strong sense of social
+            responsibility.
+            <br />
+            <br />
+            As an assembly of passionate scholars, we actively engage in
+            fostering excellence, advocating for academic integrity, and
+            cultivating a culture of innovation. Through our various committees
+            and projects, we aim to bridge the gap between theory and practice,
+            enabling students to apply their knowledge and skills to real-world
+            challenges.
           </p>
         </div>
       </div>
