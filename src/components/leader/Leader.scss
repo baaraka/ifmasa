@@ -69,6 +69,19 @@
 }
 
 //media queries
+@media (min-width: 769px) and (max-width: 1024px) {
+  .leader {
+    .leaderContainer {
+      .lContainer {
+        .lContainerList {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+//media queries
 @media (max-width: 768px) {
   .leader {
     .leaderContainer {
