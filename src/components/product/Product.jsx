@@ -11,7 +11,7 @@ function Product() {
           <div className="productContainerListItem">
             <div className="containerImage">
               <img
-                src="https://images.pexels.com/photos/15959383/pexels-photo-15959383/free-photo-of-young-woman-in-a-blue-dress-tossing-her-mortarboard.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                src="https://images.pexels.com/photos/3186386/pexels-photo-3186386.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt=""
               />
               <div className="containerOverlay">
@@ -37,7 +37,7 @@ function Product() {
           <div className="productContainerListItem">
             <div className="containerImage">
               <img
-                src="https://images.pexels.com/photos/15959383/pexels-photo-15959383/free-photo-of-young-woman-in-a-blue-dress-tossing-her-mortarboard.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt=""
               />
               <div className="containerOverlay">
@@ -64,7 +64,7 @@ function Product() {
           <div className="productContainerListItem">
             <div className="containerImage">
               <img
-                src="https://images.pexels.com/photos/15959383/pexels-photo-15959383/free-photo-of-young-woman-in-a-blue-dress-tossing-her-mortarboard.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                src="https://images.pexels.com/photos/1848731/pexels-photo-1848731.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt=""
               />
               <div className="containerOverlay">
@@ -91,7 +91,7 @@ function Product() {
           <div className="productContainerListItem">
             <div className="containerImage">
               <img
-                src="https://images.pexels.com/photos/15959383/pexels-photo-15959383/free-photo-of-young-woman-in-a-blue-dress-tossing-her-mortarboard.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                src="https://images.pexels.com/photos/8199560/pexels-photo-8199560.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt=""
               />
               <div className="containerOverlay">
@@ -118,7 +118,7 @@ function Product() {
           <div className="productContainerListItem">
             <div className="containerImage">
               <img
-                src="https://images.pexels.com/photos/15959383/pexels-photo-15959383/free-photo-of-young-woman-in-a-blue-dress-tossing-her-mortarboard.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                src="https://images.pexels.com/photos/1699419/pexels-photo-1699419.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
                 alt=""
               />
               <div className="containerOverlay">

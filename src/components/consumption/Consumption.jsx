@@ -7,6 +7,7 @@ function Consumption() {
         <h1>Investment Products for Public Consumption</h1>
         <div className="consumptionContainerList">
           <div className="consumptionContainerListItem">
+            <h1>Stocks</h1>
             <h2>Features</h2>
             <p>
               Diversified Portfolio, Professional Management, Compound Interest
@@ -22,7 +23,7 @@ function Consumption() {
           </div>
           <div className="consumptionItem">
             <img
-              src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+              src="https://images.pexels.com/photos/6801647/pexels-photo-6801647.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt=""
             />
           </div>
@@ -30,11 +31,12 @@ function Consumption() {
         <div className="consumptionContainerList">
           <div className="consumptionItem">
             <img
-              src="https://images.pexels.com/photos/1139317/pexels-photo-1139317.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+              src="https://images.pexels.com/photos/6781340/pexels-photo-6781340.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt=""
             />
           </div>
           <div className="consumptionContainerListItem">
+            <h1>Mutual Funds</h1>
             <h2>Features</h2>
             <p>Ethical Investments, Sustainable Companies, ESG Integration</p>
             <h2>Benefits</h2>
@@ -48,6 +50,7 @@ function Consumption() {
         </div>
         <div className="consumptionContainerList">
           <div className="consumptionContainerListItem">
+            <h1>Real Estate Investment Trusts (REITs)</h1>
             <h2>Features</h2>
             <p>
               Tax Advantages, Retirement Account Options, Customized Risk
@@ -63,7 +66,7 @@ function Consumption() {
           </div>
           <div className="consumptionItem">
             <img
-              src="https://images.pexels.com/photos/1139317/pexels-photo-1139317.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+              src="https://images.pexels.com/photos/7078875/pexels-photo-7078875.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt=""
             />
           </div>
@@ -71,11 +74,12 @@ function Consumption() {
         <div className="consumptionContainerList">
           <div className="consumptionItem">
             <img
-              src="https://images.pexels.com/photos/1139317/pexels-photo-1139317.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+              src="https://images.pexels.com/photos/4386404/pexels-photo-4386404.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt=""
             />
           </div>
           <div className="consumptionContainerListItem">
+            <h1>Certificate of Deposit (CD)</h1>
             <h2>Features</h2>
             <p>
               Active Portfolio Management, Market Analysis, Risk Management
@@ -92,6 +96,7 @@ function Consumption() {
         </div>
         <div className="consumptionContainerList">
           <div className="consumptionContainerListItem">
+            <h1>Commodities</h1>
             <h2>Features</h2>
             <p>
               Dividend-Paying Stocks, Bond Funds, Real Estate Investment Trusts
@@ -107,7 +112,7 @@ function Consumption() {
           </div>
           <div className="consumptionItem">
             <img
-              src="https://images.pexels.com/photos/1139317/pexels-photo-1139317.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+              src="https://images.pexels.com/photos/7535054/pexels-photo-7535054.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt=""
             />
           </div>
@@ -115,11 +120,12 @@ function Consumption() {
         <div className="consumptionContainerList">
           <div className="consumptionItem">
             <img
-              src="https://images.pexels.com/photos/1139317/pexels-photo-1139317.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+              src="https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt=""
             />
           </div>
           <div className="consumptionContainerListItem">
+            <h1>Cryptocurrencies</h1>
             <h2>Features</h2>
             <p>
               Tax-Advantaged Education Accounts, College Savings Plans,

@@ -14,21 +14,21 @@ function Footer() {
             <span>IFMASA PRODUCTS</span>
           </div>
           <div className="fContainerList">
-            <h2>Categories</h2>
+            <h2>About Us</h2>
             <span>IFMASA LEADERSHIP</span>
             <span>IFMASA MEMBER'S PROFILE</span>
             <span>IFMASA NEW LETTERS</span>
             <span>IFMASA PRODUCTS</span>
           </div>
           <div className="fContainerList">
-            <h2>Categories</h2>
+            <h2>Contact us</h2>
             <span>IFMASA LEADERSHIP</span>
             <span>IFMASA MEMBER'S PROFILE</span>
             <span>IFMASA NEW LETTERS</span>
             <span>IFMASA PRODUCTS</span>
           </div>
           <div className="fContainerList">
-            <h2>Categories</h2>
+            <h2>Blog</h2>
             <span>IFMASA LEADERSHIP</span>
             <span>IFMASA MEMBER'S PROFILE</span>
             <span>IFMASA NEW LETTERS</span>

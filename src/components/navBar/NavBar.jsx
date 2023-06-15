@@ -89,12 +89,29 @@ function NavBar() {
               </span>
             </Link>
             <Link to="/signUp">
-              <button onClick={handleSideBarClose} className="bUp">
+              <button
+                onClick={handleSideBarClose}
+                style={{
+                  padding: "10px 20px",
+                  border: "none",
+                  fontSize: "15px",
+                  color: "rgb(45, 183, 228)",
+                }}
+              >
                 sign up
               </button>
             </Link>
             <Link to="/signIn">
-              <button onClick={handleSideBarClose} className="bIn">
+              <button
+                onClick={handleSideBarClose}
+                style={{
+                  padding: "10px 20px",
+                  border: "none",
+                  fontSize: "15px",
+                  color: "white",
+                  backgroundColor: "rgb(45, 183, 228)",
+                }}
+              >
                 sign in
               </button>
             </Link>
